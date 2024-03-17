@@ -40,8 +40,8 @@ ui <- fluidPage(
           )
         ),
         column(
-          width = 11,  # Adjust the width as needed
-          # Add other content here if necessary
+          width = 11, 
+          
         )
       )
     )
@@ -218,5 +218,5 @@ interact with themin the environment."
 
 }
 
-# Run the application
+# Run
 shinyApp(ui, server)
