@@ -52,18 +52,18 @@ server <- function(input, output, session) {
 that cause severe respiratory disease 
 in humans. Sin Nombre hantavirus--the
 most common in the United States--is
-carried by North American Deer Mice 
-and shed in their droppings, urine and
-saliva. Humans are infected by inhaling
-aerosolized viral particles that are 
-generated when the air around fresh 
+primarily carried by North American 
+deer mice and shed in their droppings, 
+urine and saliva. Humans are infected 
+by inhaling aerosolized viral particles 
+that are generated when the air around 
 mouse droppings or nesting material is 
 disturbed in confined, poorly-ventilated
 spaces.
     
 Although infection is rare in humans,
-the results are often fatal. 
-Hantavirus Cardio-Pulmonary Syndrome,
+the results are often fatal: 
+hantavirus pulmonary syndrome,
 the most common form of disease,
 has a 38% case fatality risk and most
 patients require intensive care and
@@ -75,14 +75,14 @@ the illness.
 
 Deer Mice can be found in most places
 throughout the California, but they're
-uncommon in urban environments. They 
+less common in urban environments. They 
 prefer rural or sparcely-inhabited
-areas and most human infections occur 
-when the mice find their way into
-houses and contaminate them.
-Sheds, abandoned vehicles and seasonal
-homes that lay dormant for long periods
-are common sites of infestation."
+areas and many of their interactions
+with humans occur when the mice enter 
+homes looking for food or nesting material.
+Infestations are also common in sheds, 
+abandoned vehicles and seasonal cabins 
+that lay dormant for long periods."
   })
   
   data <- reactive({
