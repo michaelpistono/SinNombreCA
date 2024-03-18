@@ -58,8 +58,8 @@ urine and saliva. Humans are infected
 by inhaling aerosolized viral particles 
 that are generated when the air around 
 mouse droppings or nesting material is 
-disturbed in confined, poorly-ventilated
-spaces.
+disturbed, especially in confined, 
+poorly-ventilated spaces.
     
 Although infection is rare in humans,
 the results are often fatal: 
