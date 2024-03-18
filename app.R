@@ -59,7 +59,8 @@ by inhaling aerosolized viral particles
 that are generated when the air around 
 mouse droppings or nesting material is 
 disturbed, especially in confined, 
-poorly-ventilated spaces.
+poorly-ventilated spaces. The virus is
+not known to pass person-to-person.
     
 Although infection is rare in humans,
 the results are often fatal: 
@@ -67,11 +68,8 @@ hantavirus pulmonary syndrome,
 the most common form of disease,
 has a 38% case fatality risk and most
 patients require intensive care and
-intubation. The virus is not known to
-be spread person-to-person and it is
-believe that contact with infected 
-rodents is the only way to contract
-the illness.
+intubation. There is no vaccine or 
+specific cure for hantaviruses.
 
 Deer Mice can be found in most places
 throughout the California, but they're
