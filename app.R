@@ -49,30 +49,40 @@ server <- function(input, output, session) {
   
   output$sidebar_text <- renderText({
 "Hantaviruses are vector-borne pathogens
-that cause severe pulmonary disease 
-in humans. In the US, these viruses are
-carried by North American Deer Mice and 
-shed in their droppings, urine and saliva.
-Humans become infected by inhaling 
-aerosolized viral material that is 
-generated when the air around mouse
-droppings and nesting material is
-disturbed in confined, poorly-ventilated 
+that cause severe respiratory disease 
+in humans. Sin Nombre hantavirus--the
+most common in the United States--is
+carried by North American Deer Mice 
+and shed in their droppings, urine and
+saliva. Humans are infected by inhaling
+aerosolized viral particles that are 
+generated when the air around fresh 
+mouse droppings or nesting material is 
+disturbed in confined, poorly-ventilated
 spaces.
-
-This dashboard is meant to visualize 
-the relationship between Sin Nombre 
-Hantavirus carriage in North American 
-Deer Mice and human infections in the 
-state of California.
     
-Although human cases are rare, a linear
-model can be fit to the data in 
-counties with human infections.
-The model shows a positive correlation
-between viral seroprevalence in 
-mice and infections in humans that 
-interact with themin the environment."
+Although infection is rare in humans,
+the results are often fatal. 
+Hantavirus Cardio-Pulmonary Syndrome,
+the most common form of disease,
+has a 38% case fatality risk and most
+patients require intensive care and
+intubation. The virus is not known to
+be spread person-to-person and it is
+believe that contact with infected 
+rodents is the only way to contract
+the illness.
+
+Deer Mice can be found in most places
+throughout the California, but they're
+uncommon in urban environments. They 
+prefer rural or sparcely-inhabited
+areas and most human infections occur 
+when the mice find their way into
+houses and contaminate them.
+Sheds, abandoned vehicles and seasonal
+homes that lay dormant for long periods
+are common sites of infestation."
   })
   
   data <- reactive({
