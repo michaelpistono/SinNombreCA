@@ -71,7 +71,7 @@ patients require intensive care and
 intubation. There is no vaccine or 
 specific cure for hantaviruses.
 
-Deer Mice can be found in most places
+Deer mice can be found in most places
 throughout the California, but they're
 less common in urban environments. They 
 prefer rural or sparcely-inhabited
