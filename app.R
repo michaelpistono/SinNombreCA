@@ -53,7 +53,7 @@ that cause severe respiratory disease
 in humans. Sin Nombre hantavirus--the
 most common in the United States--is
 primarily carried by North American 
-deer mice and shed in their droppings, 
+deer mice and shed in their feces, 
 urine and saliva. Humans are infected 
 by inhaling aerosolized viral particles 
 that are generated when the air around 
