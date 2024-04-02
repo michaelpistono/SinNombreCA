@@ -119,7 +119,7 @@ that lay dormant for long periods."
   
     leaflet(county_map_data) %>%
      
-      setView(lng = -119.4179, lat = 36.7783, zoom = 5.3) %>% # Adjust the view as needed
+      setView(lng = -119.4179, lat = 36.7783, zoom = 5.3) %>% 
       addTiles() %>%
       
       addPolygons(fillColor = ~pal(avg_vector_prevalence),
@@ -155,7 +155,7 @@ that lay dormant for long periods."
     # Create the Leaflet map
     leaflet(county_map_data) %>%
       # Remove the basemap
-      setView(lng = -119.4179, lat = 36.7783, zoom = 5.3) %>% # Adjust the view as needed
+      setView(lng = -119.4179, lat = 36.7783, zoom = 5.3) %>% 
       addTiles() %>%
       # Add polygons with custom fillColor
       addPolygons(fillColor = ~pal(human_cases),
@@ -218,7 +218,7 @@ that lay dormant for long periods."
       filter(avg_vector_prevalence > 0) %>%
       group_by(County) %>%
       ggplot(aes(x = reorder(County, avg_vector_prevalence), y = avg_vector_prevalence)) +
-      geom_bar(stat = "identity", fillColor = ~pal(avg_vector_prevalence)) +
+      geom_bar(stat = "identity", fill = "black") +
       theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust = 1)) +
       theme_test()+
       coord_flip() +
@@ -238,7 +238,7 @@ that lay dormant for long periods."
       filter(human_cases > 0) %>%
       group_by(County) %>%
       ggplot(aes(x = reorder(County, human_cases), y = human_cases)) +
-      geom_bar(stat = "identity", fillColor = ~pal(human_cases)) +
+      geom_bar(stat = "identity", fill = "black") +
       theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust = 1)) +
       theme_test()+
       coord_flip() +
@@ -257,7 +257,7 @@ that lay dormant for long periods."
       filter(human_prevalence > 0) %>%
       group_by(County) %>%
       ggplot(aes(x = reorder(County, human_prevalence), y = human_prevalence)) +
-      geom_bar(stat = "identity", fillColor = ~pal(human_prevalence)) +
+      geom_bar(stat = "identity", fill = "black") +
       theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust = 1)) +
       theme_test()+
       coord_flip() +
