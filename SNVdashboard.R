@@ -10,12 +10,12 @@ library(shiny)
 
 
 ca_access_token <- "893a0451-03da-4072-b87e-eeaa5f99ac6e"
-access_token <- "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"
+github_access_token <- "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"
 esri_token <- "AAPKebecfb908b6b4967966629c5ea06dae1z6U3gCGH5p762e6dURo8TnctKjdjqUs5kRcUIypc5O0xXQ-KDs3w9WiQs32PrauQ"
 
 fetch_data_as_dataframe <- function(url) {
   
-  response <- httr::GET(url, httr::add_headers(Authorization = paste("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", access_token)))
+  response <- httr::GET(url, httr::add_headers(Authorization = paste("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", github_access_token)))
   dataframe <- read.csv(text = httr::content(response, as = "text", encoding = "UTF-8"))
   return(dataframe)
 }
