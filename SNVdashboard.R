@@ -2,10 +2,9 @@ library(tidyverse)
 library(leaflet)
 library(sf)
 library(reshape2)
-library(car)
 library(magrittr)
 library(httr)
-library(jsonlite)
+#library(jsonlite)
 library(shiny)
 
 
