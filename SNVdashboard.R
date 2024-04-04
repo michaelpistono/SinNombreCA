@@ -240,7 +240,7 @@ that lay dormant for long periods."
       theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust = 1)) +
       theme_test()+
       coord_flip() +
-      scale_y_continuous(limits = c(0, 40)) +
+      scale_y_continuous(limits = c(0, 30)) +
       labs(title = "Human Hantavirus Cases, 1980 - 2022",
            x = "County",
            y = "Cases")
